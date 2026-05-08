@@ -75,14 +75,21 @@ verdi_sc:
 # ==============================================================================
 # REGRAS ICARUS VERILOG & GTKWAVE
 # ==============================================================================
+GTKW_FILE = waves.gtkw
+
 iv_compile:
 	$(IV_COMPILER) $(IV_FLAGS) -o $(IV_OUT) $(RTL_FILES) $(TB_FILES)
+
 
 iv_run: iv_compile
 	$(IV_SIMULATOR) $(IV_OUT)
 
 iv_wave:
-	gtkwave $(VCD_FILE)
+	@if [ -f $(GTKW_FILE) ]; then \
+		gtkwave $(VCD_FILE) $(GTKW_FILE) & \
+	else \
+		gtkwave $(VCD_FILE) & \
+	fi
 
 iv_all: iv_compile iv_run iv_wave
 
