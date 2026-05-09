@@ -1,30 +1,31 @@
 [*]
 [*] GTKWave Analyzer v3.3.125 (w)1999-2025 BSI
-[*] Fri May  8 01:03:49 2026
+[*] Sat May  9 03:48:37 2026
 [*]
-[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/adder32.vcd"
-[dumpfile_mtime] "Fri May  8 01:03:32 2026"
-[dumpfile_size] 3761
+[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/1x8demux.vcd"
+[dumpfile_mtime] "Sat May  9 03:48:05 2026"
+[dumpfile_size] 1604
 [savefile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/waves.gtkw"
 [timestart] 0
-[size] 1000 600
-[pos] -1 -1
+[size] 1536 913
+[pos] -27 -24
 *-4.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [sst_width] 43
 [signals_width] 166
 [sst_expanded] 0
 [sst_vpaned_height] 157
 @28
-adder_top.clk
-adder_top.reset_n
-adder_top.en
-@22
-adder_top.op_a[31:0]
-@23
-adder_top.op_b[31:0]
-@22
-adder_top.adder_out[31:0]
+demux_top.clk
+demux_top.rstn
+demux_top.en
+@29
+demux_top.sel[2:0]
 @28
-adder_top.carry_out
+demux_top.din
+@22
+demux_top.dout[7:0]
+@28
+demux_top.prev_in
+demux_top.prev_sel[2:0]
 [pattern_trace] 1
 [pattern_trace] 0
