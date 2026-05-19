@@ -1,30 +1,27 @@
 [*]
 [*] GTKWave Analyzer v3.3.125 (w)1999-2025 BSI
-[*] Sat May  9 18:37:07 2026
+[*] Tue May 19 03:42:45 2026
 [*]
-[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/8x1mux.vcd"
-[dumpfile_mtime] "Sat May  9 18:35:50 2026"
-[dumpfile_size] 2095
+[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/multiplier16x16.vcd"
+[dumpfile_mtime] "Tue May 19 03:40:51 2026"
+[dumpfile_size] 2385
 [savefile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/waves.gtkw"
 [timestart] 0
-[size] 1536 913
-[pos] -1 -1
-*-4.000000 27 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[size] 1536 881
+[pos] -27 -24
+*-4.000000 47 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [sst_width] 43
 [signals_width] 166
 [sst_expanded] 0
 [sst_vpaned_height] 157
 @28
-mux_top.clk
-mux_top.din[7:0]
-mux_top.dout
-mux_top.en
-mux_top.rstn
+multi_tb.clk
+multi_tb.reset_n
+multi_tb.en
 @24
-mux_top.sel[2:0]
-@28
-mux_top.prev_din[7:0]
+multi_tb.op_a[15:0]
+multi_tb.op_b[15:0]
 @25
-mux_top.prev_sel[2:0]
+multi_tb.multi_out[31:0]
 [pattern_trace] 1
 [pattern_trace] 0
