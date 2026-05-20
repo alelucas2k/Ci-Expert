@@ -82,6 +82,8 @@ initial begin
     en = 0;
     op_a = 0;
     op_b = 0;
+    prev_a = 0;
+    prev_b = 0;
 
     repeat(2) @(posedge clk);
     reset_n = 1;
