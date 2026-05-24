@@ -1,32 +1,31 @@
 [*]
 [*] GTKWave Analyzer v3.3.125 (w)1999-2025 BSI
-[*] Wed May 20 04:43:56 2026
+[*] Sun May 24 19:00:24 2026
 [*]
-[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/updown_counter.vcd"
-[dumpfile_mtime] "Wed May 20 04:43:06 2026"
-[dumpfile_size] 3716
+[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/arbiter.vcd"
+[dumpfile_mtime] "Sun May 24 19:00:09 2026"
+[dumpfile_size] 3934
 [savefile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05_verilog-refresher/verilog-refresher/waves.gtkw"
-[timestart] 109
+[timestart] 72
 [size] 1536 881
 [pos] -27 -24
-*-4.000000 187 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
-[treeopen] updown_counter_top.
+*-6.000000 89 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [sst_width] 43
 [signals_width] 166
 [sst_expanded] 0
 [sst_vpaned_height] 157
 @28
-updown_counter_top.clk
-updown_counter_top.resetn
-updown_counter_top.en
-@24
-updown_counter_top.down_counter[3:0]
-updown_counter_top.up_counter[3:0]
+arbiter_top.clk
+arbiter_top.reset_n
+arbiter_top.client1_req
+arbiter_top.client2_req
+arbiter_top.priority_sel
+arbiter_top.o_grant1
+arbiter_top.o_grant2
+@29
+arbiter_top.priority_sel_prev
 @28
-updown_counter_top.prev_en
-@24
-updown_counter_top.prev_down[3:0]
-@25
-updown_counter_top.prev_up[3:0]
+arbiter_top.o_grant1_prev
+arbiter_top.o_grant2_prev
 [pattern_trace] 1
 [pattern_trace] 0
