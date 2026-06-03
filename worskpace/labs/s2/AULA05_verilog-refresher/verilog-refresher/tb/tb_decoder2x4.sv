@@ -1,8 +1,3 @@
-// 
-
-
-
-
 module decoder_top;
     logic clk;
     logic rstn;
