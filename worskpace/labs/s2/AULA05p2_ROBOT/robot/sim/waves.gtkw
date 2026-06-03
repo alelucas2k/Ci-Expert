@@ -1,0 +1,71 @@
+[*]
+[*] GTKWave Analyzer v3.3.127 (w)1999-2026 BSI
+[*] Mon Jun  1 18:44:20 2026
+[*]
+[dumpfile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05p2_ROBOT/robot/sim/robot.vcd"
+[dumpfile_mtime] "Mon Jun  1 18:42:32 2026"
+[dumpfile_size] 2773
+[savefile] "/home/alessandro/Ci-expert/Ci-Expert/worskpace/labs/s2/AULA05p2_ROBOT/robot/sim/waves.gtkw"
+[timestart] 0
+[size] 1536 881
+[pos] -27 -24
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] robot_model_tb.
+[sst_width] 43
+[signals_width] 174
+[sst_expanded] 0
+[sst_vpaned_height] 254
+@28
+robot_model_tb.clock
+robot_model_tb.load_start
+robot_model_tb.reset_n
+robot_model_tb.s0_req
+robot_model_tb.s0_unload_done
+robot_model_tb.s0_unloadstart
+robot_model_tb.s1_req
+robot_model_tb.s1_unload_done
+robot_model_tb.s1_unloadstart
+robot_model_tb.s2_req
+robot_model_tb.s2_unload_done
+robot_model_tb.s2_unloadstart
+robot_model_tb.s3_req
+robot_model_tb.s3_unload_done
+robot_model_tb.s3_unloadstart
+@420
+robot_model_tb.u_robot_model.IDLE
+robot_model_tb.u_robot_model.JOINTA_LEFT
+robot_model_tb.u_robot_model.JOINTA_RIGHT
+robot_model_tb.u_robot_model.JOINTC_DOWN
+robot_model_tb.u_robot_model.JOINTC_UP
+robot_model_tb.u_robot_model.LOAD_ITEM
+robot_model_tb.u_robot_model.RELEASE_CLAWE
+robot_model_tb.u_robot_model.WRIST_HOR
+robot_model_tb.u_robot_model.WRIST_VERT
+@28
+robot_model_tb.u_robot_model.clock
+robot_model_tb.u_robot_model.curr_state[1:0]
+robot_model_tb.u_robot_model.load_cstate[1:0]
+robot_model_tb.u_robot_model.load_done_int
+robot_model_tb.u_robot_model.load_nstate[1:0]
+robot_model_tb.u_robot_model.load_start
+robot_model_tb.u_robot_model.next_state[1:0]
+robot_model_tb.u_robot_model.reset_n
+robot_model_tb.u_robot_model.s0_req
+robot_model_tb.u_robot_model.s0_unload_done
+robot_model_tb.u_robot_model.s0_unloadstart
+robot_model_tb.u_robot_model.s0ors2_req
+robot_model_tb.u_robot_model.s1_req
+robot_model_tb.u_robot_model.s1_unload_done
+robot_model_tb.u_robot_model.s1_unloadstart
+robot_model_tb.u_robot_model.s1ors3_req
+robot_model_tb.u_robot_model.s2_req
+robot_model_tb.u_robot_model.s2_unload_done
+robot_model_tb.u_robot_model.s2_unloadstart
+robot_model_tb.u_robot_model.s3_req
+robot_model_tb.u_robot_model.s3_unload_done
+robot_model_tb.u_robot_model.s3_unloadstart
+robot_model_tb.u_robot_model.unload_cstate[1:0]
+robot_model_tb.u_robot_model.unload_done
+robot_model_tb.u_robot_model.unload_nstate[1:0]
+[pattern_trace] 1
+[pattern_trace] 0
